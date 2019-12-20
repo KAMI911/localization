@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: openshot\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-11-17 17:02+0000\n"
-"PO-Revision-Date: 2019-12-18 16:27+0000\n"
-"Last-Translator: KAMI <kami911@gmail.com>\n"
+"PO-Revision-Date: 2019-12-20 05:33+0100\n"
+"Last-Translator: Kálmán „KAMI” Szalai <kami911@gmail.com>\n"
 "Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-12-20 03:48+0000\n"
-"X-Generator: Launchpad (build bceb5ef013b87ef7aafe0755545ceb689ca7ac60)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: hu\n"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/settings.py:101
@@ -27,12 +27,12 @@ msgstr "Beállítási hiba"
 #, python-format
 msgid "Error loading settings file: %(file_path)s. Settings will be reset."
 msgstr ""
-"Nem sikerült a beállítások betöltése a fájlból: %(file_path)s. "
-"Alapértelmezett beállítások betöltése."
+"Nem sikerült a beállítások betöltése a fájlból: %(file_path)s. Alapértelmezett "
+"beállítások betöltése."
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/importers/final_cut_pro.py:59
 msgid "Import XML..."
-msgstr ""
+msgstr "XML importálás…"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/importers/final_cut_pro.py:60
 #: /home/jonathan/apps/openshot-qt-git/src/classes/exporters/final_cut_pro.py:94
@@ -41,12 +41,12 @@ msgstr "Final Cut Pro (*.xml)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/importers/edl.py:195
 msgid "Import EDL..."
-msgstr ""
+msgstr "EDL importálás…"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/importers/edl.py:196
 #: /home/jonathan/apps/openshot-qt-git/src/classes/exporters/edl.py:60
 msgid "Edit Decision Lists (*.edl)"
-msgstr ""
+msgstr "Edit Decision Lists (*.edl)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/exporters/final_cut_pro.py:90
 #: /home/jonathan/apps/openshot-qt-git/src/classes/exporters/edl.py:56
@@ -63,11 +63,11 @@ msgstr "Exportálás XML-be..."
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/exporters/edl.py:59
 msgid "Export EDL..."
-msgstr ""
+msgstr "EDL exportálás…"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/app.py:124
 msgid "Wrong Version of libopenshot Detected"
-msgstr "Nem megfelelő a libopenshot verziója."
+msgstr "Nem megfelelő a libopenshot verziója"
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/app.py:125
 #, python-format
@@ -76,8 +76,8 @@ msgid ""
 "detected. Please update libopenshot or download our latest installer."
 msgstr ""
 "<b>Minimum %(minimum_version)s verzió szükséges</b>, de csak "
-"%(current_version)s verzió található. Frissítse a libopenshot "
-"programkönyvtárat vagy töltse le és telepítse a program újabb verzióját."
+"%(current_version)s verzió található. Frissítse a libopenshot programkönyvtárat "
+"vagy töltse le és telepítse a program újabb verzióját."
 
 #: /home/jonathan/apps/openshot-qt-git/src/classes/app.py:156
 msgid "Permission Error"
@@ -87,6 +87,8 @@ msgstr "Jogosultsági hiba"
 #, python-format
 msgid "%(error)s. Please delete <b>%(path)s</b> and launch OpenShot again."
 msgstr ""
+"%(error)s. Törölje a következőt:  <b>%(path)s</b>, és indítsa újra az OpenShot "
+"programot."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/add_to_timeline.py:463
 #: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:1757
@@ -123,15 +125,15 @@ msgstr "Fel- és lekeverés"
 msgid "Random"
 msgstr "Véletlenszerű"
 
-#: /home/jonathan/apps/openshot-qt-git/src/windows/add_to_timeline.py:476
-#: Settings for actionTimelineZoomIn
+#: /home/jonathan/apps/openshot-qt-git/src/windows/add_to_timeline.py:476 Settings
+#: for actionTimelineZoomIn
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1053
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1056
 msgid "Zoom In"
 msgstr "Nagyítás"
 
-#: /home/jonathan/apps/openshot-qt-git/src/windows/add_to_timeline.py:477
-#: Settings for actionTimelineZoomOut
+#: /home/jonathan/apps/openshot-qt-git/src/windows/add_to_timeline.py:477 Settings
+#: for actionTimelineZoomOut
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1068
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1071
 msgid "Zoom Out"
@@ -168,18 +170,18 @@ msgstr "Hiba lépett fel a projekt mentése során"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:536
 msgid ""
-"Project {} is missing (it may have been moved or deleted). It has been "
-"removed from the Recent Projects menu."
+"Project {} is missing (it may have been moved or deleted). It has been removed "
+"from the Recent Projects menu."
 msgstr ""
-"{} projekt hiányzik, mert esetleg át lett helyezve, vagy le lett törölve. "
-"Ezért el lett távolítva a Legutóbbi Projektek listáról."
+"{} projekt hiányzik, mert esetleg át lett helyezve, vagy le lett törölve. Ezért "
+"el lett távolítva a Legutóbbi Projektek listáról."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:542
 msgid "Error Opening Project"
 msgstr "Hiba lépett fel a projekt megnyitása során"
 
-#: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:598 Settings
-#: for actionOpen
+#: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:598 Settings for
+#: actionOpen
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:525
 msgid "Open Project..."
 msgstr "Projekt megnyitása..."
@@ -194,8 +196,8 @@ msgstr "OpenShot projektfájl (*.osp)"
 msgid "Save Project..."
 msgstr "Projekt mentése…"
 
-#: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:682 Settings
-#: for actionSaveAs
+#: /home/jonathan/apps/openshot-qt-git/src/windows/main_window.py:682 Settings for
+#: actionSaveAs
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:570
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:573
 msgid "Save Project As..."
@@ -373,20 +375,20 @@ msgstr "Tallózás…"
 msgid "Default"
 msgstr "Alapértelmezés"
 
-#: /home/jonathan/apps/openshot-qt-git/src/windows/preferences.py:316 Settings
-#: for hw-decoder
+#: /home/jonathan/apps/openshot-qt-git/src/windows/preferences.py:316 Settings for
+#: hw-decoder
 msgid "No acceleration"
-msgstr ""
+msgstr "Nincs hardveres gyorsítás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/preferences.py:319
 #, python-format
 msgid "Graphics Card %s"
-msgstr ""
+msgstr "Videokártya: %s"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/preferences.py:325
 #, python-format
 msgid "Graphics card selection not supported in %s"
-msgstr ""
+msgstr "A kiválasztott videokártya nem támagatott itt: %s"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/preferences.py:411
 msgid "Select executable file"
@@ -402,8 +404,7 @@ msgstr "Újraindítás szükséges"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/preferences.py:588
 msgid "Please restart OpenShot for all preferences to take effect."
-msgstr ""
-"A beállítások érvényre juttatásához indítsa újra az OpenShot programot."
+msgstr "A beállítások érvényre juttatásához indítsa újra az OpenShot programot."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/file_properties.py:73
 msgid "Update"
@@ -450,14 +451,14 @@ msgid "Surround (7.1 Channel)"
 msgstr "Térhatású (7.1 csatorna)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/file_properties.py:162
-#: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:445 libopenshot
-#: (Clip Properties)
+#: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:445 libopenshot (Clip
+#: Properties)
 msgid "Yes"
 msgstr "Igen"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/file_properties.py:163
-#: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:446 libopenshot
-#: (Clip Properties)
+#: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:446 libopenshot (Clip
+#: Properties)
 msgid "No"
 msgstr "Nem"
 
@@ -466,9 +467,8 @@ msgstr "Nem"
 msgid "Locate media file: %s"
 msgstr "A médiafájl helye: %s"
 
-#: /home/jonathan/apps/openshot-qt-git/src/windows/cutting.py:81 Settings
-#: Category for Preview
-#: /home/jonathan/apps/openshot-qt-git/src/windows/ui/animation.ui:341
+#: /home/jonathan/apps/openshot-qt-git/src/windows/cutting.py:81 Settings Category
+#: for Preview /home/jonathan/apps/openshot-qt-git/src/windows/ui/animation.ui:341
 msgid "Preview"
 msgstr "Előnézet"
 
@@ -487,11 +487,11 @@ msgstr "Készítsen és szerkesszen lenyűgöző videókat és filmeket"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/about.py:82
 msgid ""
-"OpenShot Video Editor 2.x is the next generation of the award-winning "
-"<br/>OpenShot video editing platform."
+"OpenShot Video Editor 2.x is the next generation of the award-winning <br/"
+">OpenShot video editing platform."
 msgstr ""
-"Az OpenShot Video Editor 2.x a következő generációja a díjnyertes "
-"<br/>OpenShot videószerkesztő platformnak."
+"Az OpenShot Video Editor 2.x a következő generációja a díjnyertes <br/>OpenShot "
+"videószerkesztő platformnak."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/about.py:83
 msgid "Learn more"
@@ -541,7 +541,7 @@ msgstr "OpenShot megnyitása a GitHub webhelyen"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/preview_thread.py:72
 msgid "Audio Error"
-msgstr ""
+msgstr "Hang hiba"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/preview_thread.py:72
 #, python-format
@@ -549,6 +549,8 @@ msgid ""
 "Please fix the following error and restart OpenShot\n"
 "%s"
 msgstr ""
+"Javítsa ki a következő hibát, és indítsa újra az OpenShot programot\n"
+"%s"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/files_treeview.py:252
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/files_listview.py:253
@@ -577,43 +579,42 @@ msgstr "Következő"
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:319
 msgid ""
 "<b>Welcome!</b> OpenShot Video Editor is an award-winning, open-source video "
-"editing application! This tutorial will walk you through the "
-"basics.<br><br>Would you like to automatically send errors and metrics to "
-"help improve OpenShot?"
+"editing application! This tutorial will walk you through the basics."
+"<br><br>Would you like to automatically send errors and metrics to help improve "
+"OpenShot?"
 msgstr ""
 "<b>Üdvözöljük!</b> Az OpenShot Video Editor egy díjnyertes nyílt forráskódú "
-"videószerkesztő. Ez a bemutató végigvezeti Önt a program használatának "
-"alapjain.<br><br>Szeretne részt venni az OpenShot továbbfejlesztésében "
-"azzal, hogy automatikus hibajelentéseket és használati statisztikákat küld a "
-"fejlesztőknek?"
+"videószerkesztő. Ez a bemutató végigvezeti Önt a program használatának alapjain."
+"<br><br>Szeretne részt venni az OpenShot továbbfejlesztésében azzal, hogy "
+"automatikus hibajelentéseket és használati statisztikákat küld a fejlesztőknek?"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:320
 msgid ""
-"<b>Project Files:</b> Get started with your project by adding video, audio, "
-"and image files here. Drag and drop files from your file system."
+"<b>Project Files:</b> Get started with your project by adding video, audio, and "
+"image files here. Drag and drop files from your file system."
 msgstr ""
-"<b>Projektfájlok:</b> Kezdje el kialakítani saját projektjét videó-, hang-, "
-"és képfájlok hozzáadásával. Húzd és ejtsd módon is hozzáadhat fájlokat a "
+"<b>Projektfájlok:</b> Kezdje el kialakítani saját projektjét videó-, hang-, és "
+"képfájlok hozzáadásával. Húzd és ejtsd módon is hozzáadhat fájlokat a "
 "fájlrendszerből."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:321
 msgid ""
 "<b>Timeline:</b> Arrange your clips on the timeline here. Overlap clips to "
-"create automatic transitions. Access lots of fun presets and options by "
-"right-clicking on clips."
+"create automatic transitions. Access lots of fun presets and options by right-"
+"clicking on clips."
 msgstr ""
-"<b>Idősáv:</b> Itt rendezheti időrendi sorrendbe a videóhoz adott klipeket. "
-"Az egymást átfedő klipek automatikusan átmenettel fognak váltani. A klipre "
-"jobb gombbal kattintva rengeteg előre elkészített beállítást és lehetőséget "
-"állíthat be."
+"<b>Idősáv:</b> Itt rendezheti időrendi sorrendbe a videóhoz adott klipeket. Az "
+"egymást átfedő klipek automatikusan átmenettel fognak váltani. A klipre jobb "
+"gombbal kattintva rengeteg előre elkészített beállítást és lehetőséget állíthat "
+"be."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:322
 msgid ""
-"<b>Video Preview:</b> Watch your timeline video preview here. Use the "
-"buttons (play, rewind, fast-forward) to control the video playback."
+"<b>Video Preview:</b> Watch your timeline video preview here. Use the buttons "
+"(play, rewind, fast-forward) to control the video playback."
 msgstr ""
-"<b>Videó előnézet:</b> A idősávon összeállított videó gyorsnézetét itt "
-"nézheti meg. A lejátszás, visszatekerés, előretekerés gombok használatával "
+"<b>Videó előnézet:</b> A idősávon összeállított videó gyorsnézetét itt nézheti "
+"meg. A lejátszás, visszatekerés, előretekerés gombok használatával "
 "szabályozhatja a videólejátszást."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:323
@@ -624,28 +625,28 @@ msgid ""
 msgstr ""
 "<b>Tulajdonságok:</b> Tekintse át és változtassa meg a klipek és effektusok "
 "néhány részletes beállítását. Jobb gombbal a tulajdonság helyi menüjében "
-"általában gyorsabban elérheti a beállításokat, de kézzel is "
-"megváltoztathatja ezeket az értékeket."
+"általában gyorsabban elérheti a beállításokat, de kézzel is megváltoztathatja "
+"ezeket az értékeket."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:324
 msgid ""
 "<b>Transitions:</b> Create a gradual fade from one clip to another. Drag and "
-"drop a transition onto the timeline and position it on top of a clip "
-"(usually at the beginning or ending)."
+"drop a transition onto the timeline and position it on top of a clip (usually "
+"at the beginning or ending)."
 msgstr ""
-"<b>Átmenetek:</b> Itt hozhat létre átmeneteket az egyik klipből a másikra. "
-"Fogd meg és ejtsd művelettel egy átmenetet adhat az idősávon lévő klip "
-"megadott pozíciójához (általában a klip elejéhez vagy a végéhez)."
+"<b>Átmenetek:</b> Itt hozhat létre átmeneteket az egyik klipből a másikra. Fogd "
+"meg és ejtsd művelettel egy átmenetet adhat az idősávon lévő klip megadott "
+"pozíciójához (általában a klip elejéhez vagy a végéhez)."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:325
 msgid ""
 "<b>Effects:</b> Adjust brightness, contrast, saturation, and add exciting "
-"special effects. Drag and drop an effect onto the timeline and position it "
-"on top of a clip (or track)"
+"special effects. Drag and drop an effect onto the timeline and position it on "
+"top of a clip (or track)"
 msgstr ""
 "<b>Effektusok:</b> A fényerő, a kontraszt, a telítettség szabályzása és "
-"lenyűgöző speciális effektusok hozzáadása. Húzzon egy effektust az "
-"idővonalra és ejtse rá egy klipre (vagy egy sávra)"
+"lenyűgöző speciális effektusok hozzáadása. Húzzon egy effektust az idősávra és "
+"ejtse rá egy klipre (vagy egy sávra)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/tutorial.py:326
 msgid ""
@@ -653,8 +654,8 @@ msgid ""
 "this button to export your timeline as a single video file."
 msgstr ""
 "<b>Video exportálása:</b> Amikor végül elkészül a videó szerkesztésével "
-"kattintson erre a gombra, amivel az idővonalon lévő klipeket egyetlen "
-"videofájlba mentheti el."
+"kattintson erre a gombra, amivel az idősávon lévő klipeket egyetlen videofájlba "
+"mentheti el."
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/views/timeline_webview.py:396
 msgid "Slice All"
@@ -1314,10 +1315,10 @@ msgid ""
 "Blender, the free open source 3D content creation suite is required for this "
 "action (http://www.blender.org).\n"
 "\n"
-"Please check the preferences in OpenShot and be sure the Blender executable "
-"is correct.  This setting should be the path of the 'blender' executable on "
-"your computer.  Also, please be sure that it is pointing to Blender version "
-"{} or greater.\n"
+"Please check the preferences in OpenShot and be sure the Blender executable is "
+"correct.  This setting should be the path of the 'blender' executable on your "
+"computer.  Also, please be sure that it is pointing to Blender version {} or "
+"greater.\n"
 "\n"
 "Blender Path:\n"
 "{}{}"
@@ -1325,9 +1326,9 @@ msgstr ""
 "Ehhez a művelethez szükség van a Belnder programra (http://www.blender.org), "
 "amely 3D tartalmak előállítására szolgáló nyílt forráskódú szabad szoftver.\n"
 "\n"
-"Ellenőrizze az OpenShot beállításokat és bizonyosodjon meg róla, hogy a "
-"Blender futtatható állománya megfelelő helyen van. Továbbá azt is "
-"ellenőrizze, hogy a beállított Blender verziója legalább {}.\n"
+"Ellenőrizze az OpenShot beállításokat és bizonyosodjon meg róla, hogy a Blender "
+"futtatható állománya megfelelő helyen van. Továbbá azt is ellenőrizze, hogy a "
+"beállított Blender verziója legalább {}.\n"
 "\n"
 "Blender elérési útja:\n"
 "{}{}"
@@ -1452,7 +1453,7 @@ msgstr "Videó exportálása"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:79
 msgid "Done"
-msgstr ""
+msgstr "Kész"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:166
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:742
@@ -1519,7 +1520,7 @@ msgstr "Exportálási hiba"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:695
 msgid "Sorry, please select a valid range of frames to export"
-msgstr ""
+msgstr "A képkockák érvényes tartományát válassza ki az exportáláshoz"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:735
 #, python-format
@@ -1538,7 +1539,7 @@ msgstr "%(hours)d:%(minutes)02d:%(seconds)02d van hátra (%(fps)5.2f FPS)"
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:883
 #, python-format
 msgid "%(hours)d:%(minutes)02d:%(seconds)02d Elapsed (%(fps)5.2f FPS)"
-msgstr ""
+msgstr "%(hours)d:%(minutes)02d:%(seconds)02d eltelt (%(fps)5.2f FPS)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/export.py:925
 #, python-format
@@ -1563,8 +1564,7 @@ msgstr "Részecskeszám"
 
 #: libopenshot (Effect Metadata)
 msgid ""
-"Shift the colors of an image up, down, left, and right (with infinite "
-"wrapping)."
+"Shift the colors of an image up, down, left, and right (with infinite wrapping)."
 msgstr "Egy kép színeinek eltolása fel, le, balra, vagy jobbra."
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
@@ -1581,7 +1581,7 @@ msgstr "Háttér: Árnyék nélkül"
 
 #: libopenshot (Effect Metadata)
 msgid "Crop out any part of your video."
-msgstr "Videó bármelyik részének kivágása."
+msgstr "Videó bármelyik részének levágása."
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/picture_frames_4.xml
 msgid "Picture Frames (4 pictures)"
@@ -1614,7 +1614,7 @@ msgstr "Telítettség"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 1: Angle Offset"
-msgstr ""
+msgstr "Ragyogás 1: eltolás dölésszöge"
 
 #: libopenshot (Clip Properties)
 msgid "Right Margin"
@@ -1626,7 +1626,7 @@ msgstr "Hullámforma"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 2: Color Threshold"
-msgstr ""
+msgstr "Ragyogás 2: szín küszöbérték"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/blinds.xml
 msgid "Text Width"
@@ -1666,7 +1666,7 @@ msgstr "Szigma"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 2: Number of Streaks"
-msgstr ""
+msgstr "Ragyogás 2: elemek száma"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/earth.xml
 msgid "Arrival Latitude (degrees)"
@@ -1694,7 +1694,7 @@ msgstr "Csatorna leképzés"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 1: Color Threshold"
-msgstr ""
+msgstr "Ragyogás 1: szín küszöbérték"
 
 #: libopenshot (Effect Metadata)
 msgid "Add colored bars around your video."
@@ -1735,11 +1735,11 @@ msgstr "Alfa X eltolás"
 #: libopenshot (Clip Properties)
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:485
 msgid "Timeline"
-msgstr "Idővonal"
+msgstr "Idősáv"
 
 #: libopenshot (Clip Properties)
 msgid "Crop X"
-msgstr ""
+msgstr "Levágás X"
 
 #: libopenshot (Clip Properties)
 msgid "Top Right"
@@ -1787,7 +1787,7 @@ msgstr "Kép 1 útvonal"
 
 #: libopenshot (Effect Metadata)
 msgid "Crop"
-msgstr "Vágás"
+msgstr "Levágás"
 
 #: libopenshot (Clip Properties)
 msgid "Channel Filter"
@@ -1859,7 +1859,7 @@ msgstr "Páratlan képkocka"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/wireframe_text.xml
 msgid "Wireframe Size"
-msgstr ""
+msgstr "Drótváz mérete"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/snow.xml
 msgid "Size"
@@ -1944,7 +1944,7 @@ msgstr "Vonal 4 szín"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 2: Type of Glare"
-msgstr ""
+msgstr "Ragyogás 2: ragyogás típusa"
 
 #: libopenshot (Clip Properties)
 msgid "Pixelization"
@@ -1972,7 +1972,7 @@ msgstr "Inverz"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 1: Type of Glare"
-msgstr ""
+msgstr "Ragyogás 1: ragyogás típusa"
 
 #: libopenshot (Clip Properties)
 msgid "Bottom Margin"
@@ -2016,7 +2016,7 @@ msgstr "Hullámhossz"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/magic_wand.xml
 msgid "Particle Scale"
-msgstr ""
+msgstr "Részecske méretezése"
 
 #: libopenshot (Clip Properties)
 msgid "Track"
@@ -2108,7 +2108,7 @@ msgstr "Gravitáció: Y"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 2: Angle Offset"
-msgstr ""
+msgstr "Ragyogás 2: eltolás dölésszöge"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/earth.xml
 msgid "Depart Latitude (minutes)"
@@ -2120,7 +2120,7 @@ msgstr "Kép 4 útvonal"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/magic_wand.xml
 msgid "Glare Type"
-msgstr ""
+msgstr "Ragyogás típusa"
 
 #: libopenshot (Clip Properties)
 msgid "Source"
@@ -2160,7 +2160,7 @@ msgstr "Alfa használata"
 
 #: libopenshot (Clip Properties)
 msgid "Crop Width"
-msgstr ""
+msgstr "Levágás szélessége"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/blinds.xml
 msgid "Sub Title"
@@ -2168,7 +2168,7 @@ msgstr "Alcím"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/lens_flare.xml
 msgid "Glare 1: Number of Streaks"
-msgstr ""
+msgstr "Ragyogás 1: elemek száma"
 
 #: libopenshot (Clip Properties)
 msgid "Shear Y"
@@ -2212,7 +2212,7 @@ msgstr "Gravitáció: Z"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/blur.xml
 msgid "Blur Y"
-msgstr ""
+msgstr "Elmosás Y"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/earth.xml
 msgid "Custom Texture (Equirectangular)"
@@ -2220,7 +2220,7 @@ msgstr "Egyedi textúra (négyzet)"
 
 #: libopenshot (Clip Properties)
 msgid "Crop Y"
-msgstr ""
+msgstr "Levágás Y"
 
 #: libopenshot (Clip Properties)
 msgid "Both"
@@ -2288,7 +2288,7 @@ msgstr "Kép 3 útvonal"
 
 #: libopenshot (Clip Properties)
 msgid "Crop Height"
-msgstr ""
+msgstr "Levágás magassága"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/snow.xml
 msgid "End Frame"
@@ -2301,8 +2301,7 @@ msgstr "Vonal 3 szín"
 #: libopenshot (Effect Metadata)
 msgid "Remove interlacing from a video (i.e. even or odd horizontal lines)"
 msgstr ""
-"Váltottsorosság eltávolítása a videóból (páros vagy páratlan vízszintes "
-"sorok)"
+"Váltottsorosság eltávolítása a videóból (páros vagy páratlan vízszintes sorok)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/colors.xml
 msgid "Tile 4: Diffuse Color"
@@ -2373,7 +2372,7 @@ msgstr ""
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/blur.xml
 msgid "Blur X"
-msgstr ""
+msgstr "Elmosás X"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/glass_slider.xml
 msgid "Background: Alpha"
@@ -2401,7 +2400,7 @@ msgstr "Bal lent"
 
 #: /home/jonathan/apps/openshot-qt-git/src/blender/magic_wand.xml
 msgid "Strength"
-msgstr ""
+msgstr "Erősség"
 
 #: libopenshot (Clip Properties)
 msgid "Scale Y"
@@ -2445,7 +2444,7 @@ msgstr "Eszköz"
 
 #: Settings for graca_number_en
 msgid "Hardware Encoder Graphics Card"
-msgstr ""
+msgstr "Hardveresen támogatott kódolóval ellátott videokártya"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_webm_libvpx.xml
 msgid "WEBM (vpx)"
@@ -2461,7 +2460,7 @@ msgstr "Alapértelmezett hang mintavételi-frekvencia"
 
 #: Settings for hw-decoder
 msgid "Hardware Decoder Mode"
-msgstr ""
+msgstr "Hardveres dekódolás üzemmód"
 
 #: Settings for seekNextFrame
 msgid "Next Frame"
@@ -2483,7 +2482,7 @@ msgstr "Jelölő hozzáadása"
 
 #: Settings for hw-decoder
 msgid "Linux VA-API"
-msgstr ""
+msgstr "Linux VA-API"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/apple_tv.xml
 msgid "Apple TV"
@@ -2503,7 +2502,7 @@ msgstr "MOV (mpeg4)"
 
 #: Settings for playback-audio-device
 msgid "Playback Audio Device"
-msgstr ""
+msgstr "Lejátszó hangeszköz"
 
 #: Settings for actionJumpStart
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:759
@@ -2517,7 +2516,7 @@ msgstr "Alapértelmezet hangcsatornák"
 
 #: Settings for decode_hw_max_height
 msgid "Hardware Decoder Max Height (0 = Default)"
-msgstr ""
+msgstr "Hardver dekódolás maximális magasság (0 = alapértelmezés szerinti)"
 
 #: Settings for actionDetailsView
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1178
@@ -2541,7 +2540,7 @@ msgstr "Gyorsnézet"
 
 #: Settings for hw-decoder
 msgid "Windows D3D11"
-msgstr ""
+msgstr "Windows D3D11"
 
 #: Settings for actionImportFiles
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:585
@@ -2560,7 +2559,7 @@ msgstr "Wikipédia"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_x264_nv.xml
 msgid "MP4 (h.264 nv)"
-msgstr ""
+msgstr "MP4 (h.264 nv)"
 
 #: Settings for actionSave
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:540
@@ -2584,15 +2583,15 @@ msgstr "Képformátum (csak lemeznél)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_webm_libav1.xml
 msgid "WEBM (AV1)"
-msgstr ""
+msgstr "WEBM (AV1)"
 
 #: Settings for hw-decoder
 msgid "Nvidia NVDEC"
-msgstr ""
+msgstr "Nvidia NVDEC"
 
 #: Settings for blender_gpu_enabled
 msgid "Use Blender GPU rendering for Animated Titles (Experimental)"
-msgstr ""
+msgstr "Animált felirathoz GPU leképzés használata a Blenderben (kísérleti)"
 
 #: Settings for deleteItem1
 msgid "Delete Item (Alternate 1)"
@@ -2600,7 +2599,7 @@ msgstr "Elem törlés (1. változat)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_x264_qsv.xml
 msgid "MP4 (h.264 qsv)"
-msgstr ""
+msgstr "MP4 (h.264 qsv)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/vimeo.xml
 msgid "Vimeo"
@@ -2608,7 +2607,7 @@ msgstr "Vimeo"
 
 #: Settings for cache-mode
 msgid "Disk"
-msgstr ""
+msgstr "Lemez"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_ogg_libvorbis.xml
 msgid "OGG (theora/vorbis)"
@@ -2638,7 +2637,7 @@ msgstr "Teljesítmény"
 
 #: Settings for hw-decoder
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: Settings for nudgeLeft
 msgid "Nudge left"
@@ -2646,7 +2645,7 @@ msgstr "Oldalra lökés balról"
 
 #: Settings for omp_threads_number
 msgid "OMP Threads (0 = Default)"
-msgstr ""
+msgstr "OMP szálak száma (0 = alapértelmezés szerinti)"
 
 #: Settings for playToggle2
 msgid "Play/Pause Toggle (Alternate 2)"
@@ -2682,11 +2681,11 @@ msgstr "Gyosítótár üzemmód"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_webm_libvp9_lossless.xml
 msgid "WEBM (vp9) lossless"
-msgstr ""
+msgstr "WEBM (vp9) veszteségmentes"
 
 #: Settings for graca_number_de
 msgid "Hardware Decoder Graphics Card"
-msgstr ""
+msgstr "Hardveresen támogatott dekódolóval ellátott videokártya"
 
 #: Settings for default-profile
 msgid "Default Profile"
@@ -2714,7 +2713,7 @@ msgstr "Új projekt"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_webm_vp9_hw.xml
 msgid "WEBP (vp9 va)"
-msgstr ""
+msgstr "WEBP (vp9 va)"
 
 #: Settings for actionSnappingTool
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:855
@@ -2758,7 +2757,7 @@ msgstr "Általános"
 
 #: Settings for theme
 msgid "Humanity: Dark"
-msgstr ""
+msgstr "Humanity: sötét"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_mpeg4.xml
 msgid "MP4 (mpeg4)"
@@ -2766,8 +2765,7 @@ msgstr "MP4 (mpeg4)"
 
 #: Settings for send_metrics
 msgid "Send Anonymous Metrics and Errors"
-msgstr ""
-"A program használatával és hibákkal kapcsolatos aniním adatok küldése"
+msgstr "A program használatával és hibákkal kapcsolatos aniním adatok küldése"
 
 #: Settings for playToggle1
 msgid "Play/Pause Toggle (Alternate 1)"
@@ -2775,11 +2773,11 @@ msgstr "Lejátszás/Szünet váltó (1. változat)"
 
 #: Settings for ff_threads_number
 msgid "FFmpeg Threads (0 = Default)"
-msgstr ""
+msgstr "FFmpeg szálak száma (0 = alapértelmezés szerinti)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_x264_hw.xml
 msgid "MP4 (h.264 va)"
-msgstr ""
+msgstr "MP4 (h.264 va)"
 
 #: Settings Category for Keyboard
 msgid "Keyboard"
@@ -2797,7 +2795,7 @@ msgstr "OGG (theora/flac)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_x264_vtb.xml
 msgid "MP4 (h.264 videotoolbox)"
-msgstr ""
+msgstr "MP4 (h.264 videotoolbox)"
 
 #: Settings for actionAbout
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/about.ui:23
@@ -2814,7 +2812,7 @@ msgstr "Összes vágása: jobb oldal megtartása"
 
 #: Settings for show_finished_window
 msgid "Show Export Dialog when Finished"
-msgstr ""
+msgstr "Befejezéskor az exportálás párbeszédablak megjelenítése"
 
 #: Settings for playToggle3
 msgid "Play/Pause Toggle (Alternate 3)"
@@ -2830,11 +2828,11 @@ msgstr "Összes kijelölése"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mkv_libaom.xml
 msgid "MKV (av1)"
-msgstr ""
+msgstr "MKV (av1)"
 
 #: Settings for hw-decoder
 msgid "Linux VDPAU"
-msgstr ""
+msgstr "Linux VDPAU"
 
 #: Settings for actionQuit
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:702
@@ -2855,12 +2853,12 @@ msgstr "Összes vágása: bal oldal megtartása"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_hevc_hw.xml
 msgid "MP4 (HEVC va)"
-msgstr ""
+msgstr "MP4 (HEVC va)"
 
 #: Settings for actionCenterOnPlayhead
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:906
 msgid "Center on Playhead"
-msgstr ""
+msgstr "Lejátszás középen"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/xbox360.xml
 msgid "Xbox 360"
@@ -2874,7 +2872,7 @@ msgstr "Vissza"
 
 #: Settings for decode_hw_max_width
 msgid "Hardware Decoder Max Width (0 = Default)"
-msgstr ""
+msgstr "Hardver dekódolás maximális szélesség (0 = alapértelmezés szerinti)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/dvd_pal.xml
 msgid "DVD-PAL"
@@ -2922,7 +2920,7 @@ msgstr "Következő jelölés"
 
 #: Settings for hw-decoder
 msgid "Windows D3D9"
-msgstr ""
+msgstr "Windows D3D9"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/metacafe.xml
 msgid "Web"
@@ -2930,7 +2928,7 @@ msgstr "Web"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_x264_dx.xml
 msgid "MP4 (h.264 dx)"
-msgstr ""
+msgstr "MP4 (h.264 dx)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/instagram.xml
 msgid "Instagram"
@@ -2938,7 +2936,7 @@ msgstr "Instagram"
 
 #: /home/jonathan/apps/openshot-qt-git/src/presets/format_mp4_x265_crf.xml
 msgid "MP4 (h.265)"
-msgstr ""
+msgstr "MP4 (h.265)"
 
 #: Settings for debug-mode
 msgid "Debug Mode (Verbose)"
@@ -2998,11 +2996,11 @@ msgstr "Visszatekerés"
 
 #: Settings for recovery-limit
 msgid "Recovery Limit (# of project copies)"
-msgstr ""
+msgstr "Helyreállítási korlát (projekt másolatok száma)"
 
 #: Settings for cache-mode
 msgid "Memory"
-msgstr ""
+msgstr "Memória"
 
 #: Settings for deleteItem
 msgid "Delete Item"
@@ -3010,11 +3008,11 @@ msgstr "Elem törlése"
 
 #: Settings for theme
 msgid "No Theme"
-msgstr ""
+msgstr "Nincs téma"
 
 #: Settings for theme
 msgid "Humanity"
-msgstr ""
+msgstr "Humanity"
 
 #: Settings for actionTransform
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1550
@@ -3024,7 +3022,7 @@ msgstr "Átalakítás"
 
 #: Settings for hw-decoder
 msgid "Intel QSV"
-msgstr ""
+msgstr "Intel QSV"
 
 #: /home/jonathan/apps/openshot-qt-git/src/transitions/extra/spiral_small.jpg
 msgid "Spiral small"
@@ -3720,7 +3718,7 @@ msgstr "Kép hossza (másodperc):"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/add-to-timeline.ui:255
 msgid "Fade:"
-msgstr "Áttünés"
+msgstr "Áttünés:"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/add-to-timeline.ui:279
 msgid "Length (seconds):"
@@ -3748,7 +3746,7 @@ msgstr "0.0"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/animated-title.ui:14
 msgid "Animated Titles (Powered by Blender)"
-msgstr ""
+msgstr "Animált felirat (Blender segítségével)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/animated-title.ui:70
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/title-editor.ui:79
@@ -3782,7 +3780,7 @@ msgstr "Ismétlés"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/animation.ui:77
 msgid "# of Frames:"
-msgstr "# képkocka"
+msgstr "Képkocka száma:"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/animation.ui:141
 msgid "Name:"
@@ -4078,11 +4076,11 @@ msgstr "&Fájl"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:99
 msgid "Export Project"
-msgstr ""
+msgstr "Projekt exportálás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:113
 msgid "Import Project"
-msgstr ""
+msgstr "Projekt importálás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:140
 msgid "&Edit"
@@ -4151,7 +4149,7 @@ msgstr "Ctrl+F"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:600
 msgid "Import Image Sequence..."
-msgstr "Kép sorozat importálás"
+msgstr "Kép sorozat importálás:"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:606
 msgid "Ctrl+I"
@@ -4228,7 +4226,7 @@ msgstr "Ctrl+M"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:909
 msgid "Center the timeline on the Playhead"
-msgstr ""
+msgstr "Idősáv középen a lejátszáshoz"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:917
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:920
@@ -4435,34 +4433,34 @@ msgstr "Előzmények törlése"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1604
 msgid "Import EDL"
-msgstr ""
+msgstr "EDL importálás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1607
 msgid "Import Edit Decision List"
-msgstr ""
+msgstr "Szerkesztési Döntési Lista (EDL) importálás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1616
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1619
 msgid "Import XML (Final Cut Pro)"
-msgstr ""
+msgstr "XML importálás (Final Cut Pro)"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1628
 msgid "Export EDL"
-msgstr ""
+msgstr "EDL exportálás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1631
 msgid "Export Edit Decision List"
-msgstr ""
+msgstr "Szerkesztési Döntési Lista (EDL) exportálás"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1640
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/main-window.ui:1643
 msgid "Export XML (Final Cut Pro)"
-msgstr ""
+msgstr "XML exportálás (Final Cut Pro)"
 
 #. Search for preference
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/preferences.ui:32
 msgid "Search"
-msgstr ""
+msgstr "Keresés"
 
 #: /home/jonathan/apps/openshot-qt-git/src/windows/ui/profile.ui:30
 msgid "Size:"
@@ -4893,8 +4891,7 @@ msgstr "Feliratok"
 #~ msgid "Scan Lines"
 #~ msgstr "Sorok pásztázása"
 
-#~ msgid ""
-#~ "Display a single color, while using greyscale for the rest of the image"
+#~ msgid "Display a single color, while using greyscale for the rest of the image"
 #~ msgstr "Egy szín használata, miközben a kép többi része fekete-fehér"
 
 #~ msgid "Keep luma"
